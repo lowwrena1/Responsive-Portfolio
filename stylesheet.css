@@ -1,0 +1,87 @@
+header {
+    position: static;
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #777777;
+}
+.navbar {
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #777777;
+}
+.navbar a {
+    margin-left: 10px; 
+    margin-right: 10px;
+  }
+
+.navlinks {
+    float: right;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #777777;
+}
+   
+  a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #e6b8d7;
+}
+
+a:active {
+    color: #a9bfdf;
+}
+
+a {
+    text-decoration: none;
+}
+
+#myname {
+    float: left;
+    text-align: center;
+    background: #4aaaa5;
+    padding: 11px;
+    color: #ffffff;
+    font-family: Cambria, Georgia, serif;
+    font-size: 30px;
+}
+
+ #image-1 {float: left}
+ /* bottom boreder wont go through for some reason */
+ h2{
+    border-bottom: 6px lightgrey;
+    background-color: #ffffff;
+  }
+
+#div3{ font-family:  Arial, Arial, Helvetica, sans-serif ;
+     text-align: absolute;
+     width: 960px;
+     padding: 100px 200px;
+    background: transparent;
+    border: #dddddd}
+ 
+  #index { float: right;}
+  #portfolio { float: right;}
+  #right { float: right;}
+  #message {width: 850px;
+height: 200px}
+  #pfoot{text-align: center}
+  body{
+   background-image:  url("papyrus.png");
+  }
+  .footer {
+      position: center;
+      position: sticky;
+      height:50px;
+      background-color: #666666;
+  }
+  @media screen and (max-width: 980px) and (min-width: 768px), (min-width: 640px)
